@@ -1,0 +1,9 @@
+streamlit
+textblob
+faker
+matplotlib
+seaborn
+transformers
+torch
+
+

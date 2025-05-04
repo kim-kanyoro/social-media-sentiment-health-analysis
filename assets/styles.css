@@ -1,0 +1,73 @@
+/* Inspired by X (formerly Twitter) */
+body {
+    background-color: #7d1414;
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    color: #0f1419;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #1d9bf0;
+    font-weight: 700;
+  }
+  
+  button, .stButton > button {
+    background-color: #1d9bf0;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 9999px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+  }
+  
+  button:hover, .stButton > button:hover {
+    background-color: #1a8cd8;
+  }
+  
+  input, textarea, .stTextInput > div > input, .stTextArea > div > textarea {
+    border-radius: 10px;
+    border: 1px solid #ccd6dd;
+    padding: 10px 14px;
+    font-size: 15px;
+    width: 100%;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #1d9bf0;
+    outline: none;
+  }
+  
+  .sidebar .sidebar-content {
+    background-color: #f5f8fa;
+    padding: 1rem;
+  }
+  
+  img {
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  img:hover {
+    transform: scale(0.98);
+  }
+  
+  .stSubheader {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #1d9bf0;
+  }
+  
+  /* Add soft drop shadows for cards */
+  .stContainer, .stMarkdown, .stTextInput, .stTextArea, .stSelectbox, .stTable {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
